@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.ayane.advancementssearch.injection.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ScreenMixin",
+    "ParentElementMixin",
+    "AdvancementWidgetMixin",
+    "AdvancementTabMixin",
+    "AdvancementsScreenMixin"
+  ]
+}
